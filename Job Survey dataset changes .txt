@@ -1,0 +1,16 @@
+Power BI
+Open power BI and "transform" your excel- 
+
+In Power Query Editor:-   (which will be automatically opened after clicking on transform) 
+1. There are some column that are fully null, so we gonna select all of them and "Remove Column".
+   (We can see at right hand side the "applied steps".)
+
+2. Duplicated Q3 column
+
+3. Split the duplicated column by digit to non-digit. Delete column with "k" values. Then replaced "k" & "-" with "". Filter the second col of split col, filter & select "+"; replace + with 225.
+
+4. Add column, custom col named "Avg Salary" which is the avg of both splitted col.
+
+5. Delete Splitt columns. 
+
+6. Split Q11. column by delimited, for custom by "(" and select left wala option. //ly for Q4.
